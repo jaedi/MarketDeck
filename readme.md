@@ -1,5 +1,5 @@
 
-<img src="client/assets/images/MarketDeckLogo.png" style="margin: 20px 0;"/>
+<img src="MarketDeckLogo.png" style="margin: 20px 0;"/>
 
 # MarketDeck
 ### MarketDeck is an online platform where you can buy & sell products with ease.
