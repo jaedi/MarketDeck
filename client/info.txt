@@ -1,0 +1,4 @@
+cd client
+npx create-react-app .
+
+# para mainstall yung react sa client folder
