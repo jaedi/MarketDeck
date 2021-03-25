@@ -1,0 +1,116 @@
+root {
+    --fontFamilyPrimary: 'Roboto';
+    --fontFamilySecondary: 'Abhaya Libre';
+}
+/* Style Reset */
+* { margin: 0; padding: 0; list-style: none; }
+
+html {
+    font-family: var(--fontFamilyPrimary);
+}
+body {
+    background: #EFEAEA;
+    color: #000;
+}
+
+/* Reusable */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+/* Center Horizontally */
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+/* Center Vertically*/
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+/* Upper Header */
+.upperHeader {
+    background: #E44E07;
+    color: #fff;
+}
+
+.upperHeader a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Lower Header */
+.lowerHeader {
+    background: #F35D08;
+    color: #fff;
+}
+.lowerHeader a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.MarketDeckLogo {
+    height: 40px;
+}
+
+/*cart*/
+.white-color{
+color: white;
+margin-left: 20px;
+}
+
+
+
+/* Desktop View */
+@media (min-width: 900px) {
+
+
+    .upperHeader ul {
+        justify-content: flex-end;
+        padding: 10px 0;
+    }
+    .upperHeader ul li {
+        margin: 0 10px;
+    }
+
+    .upperHeader i {
+        font-size:20px;
+        margin: 0 -10px 0 0;
+    }
+
+/* Lower Header */
+.searchContainer {
+    height: 50%;
+}
+input.searchBox {
+padding: 5px;
+height: 40px;
+width: 550px;
+}
+input.searchButton {
+height: 40px;
+}
+.MarketDeckLogo {
+    height: 70px;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    background: crimson;
+}
+.main img {
+    width: 100%;
+    height: 500px;
+}
+
+
+
+}
+

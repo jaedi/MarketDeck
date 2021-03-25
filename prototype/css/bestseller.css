@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .bestseller{
+
+      display: block;
+      width: 80%;
+      margin: auto;
+     margin-top:0px;
+     margin-bottom: 50px;
+       
+  }
+
+  .bestseller-name{
+      width: 80%;
+      margin-bottom: 15px;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 16.5%;
+    padding: 0 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2); /* this adds the "card" effect */
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    
+    width: 173px;
+    height: 155px;
+    left: 108px;
+    top: 559px;
+    
+   
+  
+  }
+
+  .card:hover{
+    top: 0;
+    bottom: 0;
+    left: 108px;
+    right: 0;
+    height: 155px;
+    width: 173px;
+    opacity: 0;
+    transition: .5s ease;
+    box-shadow: 0 4px 8px 0 rgba(119, 118, 118, 0.2); /* this adds the "card" effect */
+    opacity: 1;
+  }
+
+  .card-content{
+      margin-top: 10px;
+     
+  }
+  
+  .product{
+    text-decoration: none;
+  }
+
+  .activator{
+    width: 100px;
+    height: 100px;
+   
+    padding: 0px;
+    margin: 0;
+  }
+
+  .product-name{
+    font-size: 12px;
+  }
+
+  /* .notification {
+    background-color: #F35D08;
+    padding: 5px 6px;
+    position: relative;
+    display: inline-block;
+    border-radius: 1px;
+    
+  }
+  /* 
+  .notification:hover {
+    background: red;
+  } */
+  
+  /* .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 0px 5px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  } */
+ */
+  .icon-badge-icon {
+    font-size: 30px;
+    position: relative;
+  }
+  
+  .icon-badge {
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 35px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: -20px;
+    left: -12px;
+    padding: 0px 7px;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }

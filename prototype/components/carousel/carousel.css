@@ -1,0 +1,15 @@
+
+
+/* Desktop View */
+@media (min-width: 900px) {
+    .main {
+      margin-top: 20px;
+    }
+    .slick-prev:before {
+        color: #F35D08 !important;
+      }
+      .slick-next:before {
+        color: #F35D08 !important;
+      }
+
+}
