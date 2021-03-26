@@ -89,14 +89,21 @@
     font-size: 12px;
   }
 
+
+  .iconify{
+    position: relative;
+    font-size: 40px;
+    margin-left: 20px;
+  }
   /* .notification {
     background-color: #F35D08;
     padding: 5px 6px;
     position: relative;
     display: inline-block;
     border-radius: 1px;
+    font-size: 25px;
     
-  }
+  } */
   /* 
   .notification:hover {
     background: red;
@@ -118,17 +125,17 @@
   }
   
   .icon-badge {
-    background-color: red;
-    font-size: 20px;
+    background-color: #113537;
+    font-size: 12px;
     color: white;
     text-align: center;
     width: 35px;
     height: 20px;
-    border-radius: 50%;
+    border-radius: 100%;
     position: relative;
-    top: -20px;
+    top: -25px;
     left: -12px;
-    padding: 0px 7px;
+    padding: 3px 7px;
   }
   
   /* Responsive columns - one column layout (vertical) on small screens */

@@ -19,10 +19,11 @@
   .bestseller-name{
       width: 80%;
       margin-bottom: 15px;
+      
   }
 
   /* Float four columns side by side */
-  .column {
+  .column-bestseller {
     float: left;
     width: 16.5%;
     padding: 0 10px;
@@ -40,14 +41,14 @@
   }
   
   /* Style the counter cards */
-  .card {
+  .card-bestseller {
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2); /* this adds the "card" effect */
-    padding: 10px;
+    
     text-align: center;
     background-color: #ffffff;
     
-    width: 173px;
-    height: 155px;
+    width: 175px;
+    height: 220px;
     left: 108px;
     top: 559px;
     
@@ -55,16 +56,16 @@
   
   }
 
-  .card:hover{
+  .card-bestseller:hover{
     top: 0;
     bottom: 0;
     left: 108px;
     right: 0;
-    height: 155px;
-    width: 173px;
+    width: 175px;
+    height: 220px;
     opacity: 0;
     transition: .5s ease;
-    box-shadow: 0 4px 8px 0 rgba(119, 118, 118, 0.2); /* this adds the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(41, 39, 39, 0.2); /* this adds the "card" effect */
     opacity: 1;
   }
 
@@ -73,20 +74,80 @@
      
   }
   
-  .product{
+  .product-bestseller{
     text-decoration: none;
   }
 
-  .activator{
-    width: 100px;
-    height: 100px;
+  .activator-bestseller{
+    width: 175px;
+    height: 140px;
    
-    padding: 0px;
-    margin: 0;
+    
   }
 
-  .product-name{
+  .card-item-name{
     font-size: 12px;
+    text-align: left;
+    margin-left: 10px;
+    color:black;
+   
+
+  }
+  .card-item-price{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 12px;
+    color: #F35D08;
+    font-weight: bold;
+
+   
+
+  }
+
+  .card-item-stock{
+    font-size: 10px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 3px;
+    color: #222121;
+    
+   
+
+  }
+
+  .button-load{
+    background-color: #F35D08;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+    
+    
+  }
+  .button-load:hover {
+    background-color: #fa6610; /* Green */
+    color: white;
+  }
+
+    .button-load:focus{
+        outline: 0;
+    }
+
+  .load-more{
+    
+    margin-top: 20px;
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: center;
+    
   }
 
   /* .notification {
@@ -112,24 +173,7 @@
     color: white;
   } */
  */
-  .icon-badge-icon {
-    font-size: 30px;
-    position: relative;
-  }
-  
-  .icon-badge {
-    background-color: red;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    width: 35px;
-    height: 20px;
-    border-radius: 50%;
-    position: relative;
-    top: -20px;
-    left: -12px;
-    padding: 0px 7px;
-  }
+ 
   
   /* Responsive columns - one column layout (vertical) on small screens */
   @media screen and (max-width: 600px) {
