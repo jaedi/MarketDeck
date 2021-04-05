@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketDeck Prototype</title>
+    <!-- General Styles, Fonts & Icons -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Crimson+Text:ital@1&family=Abhaya+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- Carousel Component -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./components/carousel/carousel.css">
+    <script src="./components/carousel/carousel.js"></script>
+    <!-- Category Component -->
+    <link rel="stylesheet" type="text/css" href="./css/category.css">
+
+    <link rel="stylesheet" type="text/css"href="./css/bestseller.css">
+
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/footer.css">
+</head>
+<body>
+    <header>
+        <div class="upperHeader">
+            <div class="container">
+                <ul class="flex-row">
+                    <label for="">Follow Us On</label>
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                   
+                    <li><a href="#">Sign Up</a></li>
+                    <span>|</span>
+                    <li><a href="#">Log In</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="lowerHeader">
+            <div class="container align-center">
+                <img class="MarketDeckLogo" src="../MarketDeckLogo.png" alt="">
+                <div class="searchContainer">
+                    <input type="text" class="searchBox" name="" id="" placeholder="Search...">
+                    <input type="submit" class="searchButton" value="Search">
+                </div>
+                <div>
+                    <a href="#" class="notification"><span class="iconify" data-icon="bx:bx-cart" data-inline="false"></span><span class="icon-badge">3</span></a>
+                    <a href="#">Sell On MarketDeck</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="main-carousel">
+            <div>
+                <img src="https://images.unsplash.com/photo-1585155770447-2f66e2a397b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" alt="">
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1524489525761-04498cd4c406?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=890&q=80" alt="">
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1517408395525-fa05dd0bb2ef?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80" alt="">
+            </div>
+        </div>
+    </section>
+
+   <!--  This is the Category section -->
+    <section class="category">
+        <div class="category-name">
+            <h3>Categories</h3>
+        </div>
+    <div class="row">
+        <div class="column">
+          <div class="card">
+              <a href="" class="product">
+            <div>
+            <img class="activator" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfDJ8MHx3aGl0ZQ%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            </div>  
+            <div class="card-content">
+            <span class="card-title activator"><p class="product-name">Women's Fashion</p></span>
+            </div>
+        </div>
+    </a>
+        </div>
+        <div class="column">
+            <div class="card">
+                <a href="" class="product">
+              <div>
+              <img class="activator" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80">
+              </div>  
+              <div class="card-content">
+              <span class="card-title activator"><p class="product-name">Men's Fashion</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column">
+            <div class="card">
+                <a href="" class="product">
+              <div>
+              <img class="activator" src="https://images.unsplash.com/photo-1496334404997-50dbe38ea130?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fGVsZWN0cm9uaWMlMjBkZXZpY2VzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+              <span class="card-title activator"><p class="product-name">Electronic Devices</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column">
+            <div class="card">
+                <a href="" class="product">
+              <div>
+              <img class="activator" src="https://images.unsplash.com/photo-1614288064424-11d2d386c474?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWFycGhvbmVzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+              <span class="card-title activator"><p class="product-name">Electronic Accessories</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column">
+            <div class="card">
+                <a href="" class="product">
+              <div>
+              <img class="activator" src="https://images.unsplash.com/photo-1608979048467-6194dabc6a3d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJlYXV0eSUyMHByb2R1Y3RzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+              <span class="card-title activator"><p class="product-name">Beauty and Personal Care</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+         
+          <div class="column">
+            <div class="card">
+                <a href="" class="product">
+              <div>
+              <img class="activator" src="https://images.unsplash.com/photo-1576860525375-4e7b4e00155c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDh8fGJhYnklMjBib3R0bGVzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+              <span class="card-title activator"><p class="product-name">Babies and Kids</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column">
+            <div class="card">
+                <a href="" class="product">
+              <div>
+              <img class="activator" src="https://images.unsplash.com/photo-1576860525375-4e7b4e00155c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDh8fGJhYnklMjBib3R0bGVzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+              <span class="card-title activator"><p class="product-name">Babies and Kids</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column">
+            <div class="card">
+                <a href="" class="product">
+              <div>
+              <img class="activator" src="https://images.unsplash.com/photo-1614288064424-11d2d386c474?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWFycGhvbmVzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+              <span class="card-title activator"><p class="product-name">Electronic Accessories</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column">
+            <div class="card">
+                <a href="" class="product">
+              <div>
+              <img class="activator" src="https://images.unsplash.com/photo-1608979048467-6194dabc6a3d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJlYXV0eSUyMHByb2R1Y3RzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+              <span class="card-title activator"><p class="product-name">Beauty and Personal Care</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column">
+            <div class="card">
+                <a href="" class="product">
+              <div>
+              <img class="activator" src="https://images.unsplash.com/photo-1614288064424-11d2d386c474?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWFycGhvbmVzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+              <span class="card-title activator"><p class="product-name">Electronic Accessories</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column">
+            <div class="card">
+                <a href="" class="product">
+              <div>
+              <img class="activator" src="https://images.unsplash.com/photo-1608979048467-6194dabc6a3d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJlYXV0eSUyMHByb2R1Y3RzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+              <span class="card-title activator"><p class="product-name">Beauty and Personal Care</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column">
+            <div class="card">
+                <a href="" class="product">
+              <div>
+              <img class="activator" src="https://images.unsplash.com/photo-1496334404997-50dbe38ea130?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fGVsZWN0cm9uaWMlMjBkZXZpY2VzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+              <span class="card-title activator"><p class="product-name">Electronic Devices</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+      </div>
+    </section>
+
+    <!--  This is the Best seller section -->
+    <section class="bestseller">
+        <div class="bestseller-name">
+            <h3>Best Sellers </h3>
+        </div>
+    <div class="row">
+        <div class="column-bestseller">
+          <div class="card-bestseller">
+              <a href="" class="product-bestseller">
+            <div>
+            <img class="activator-bestseller" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfDJ8MHx3aGl0ZQ%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            </div>  
+            <div class="card-content">
+             <span class="card-title-bestseller activator"><p class="card-item-name">Women's Fashion</p></span>
+              <span class="card-title-bestseller activator"><p class="card-item-price">₱2000</p></span>
+              <span class="card-title-bestseller activator"><p class="card-item-stock">25k items sold</p></span>
+            </div>
+        </div>
+    </a>
+        </div>
+        <div class="column-bestseller">
+            <div class="card-bestseller">
+                <a href="" class="product-bestseller">
+              <div>
+              <img class="activator-bestseller" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfDJ8MHx3aGl0ZQ%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+               <span class="card-title-bestseller activator"><p class="card-item-name">Women's Fashion</p></span>
+              <span class="card-title-bestseller activator"><p class="card-item-price">₱2000</p></span>
+              <span class="card-title-bestseller activator"><p class="card-item-stock">25k items sold</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column-bestseller">
+            <div class="card-bestseller">
+                <a href="" class="product-bestseller">
+              <div>
+              <img class="activator-bestseller" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfDJ8MHx3aGl0ZQ%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+                <span class="card-title-bestseller activator"><p class="card-item-name">Women's Fashion</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-price">₱2000</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-stock">25k items sold</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column-bestseller">
+            <div class="card-bestseller">
+                <a href="" class="product-bestseller">
+              <div>
+              <img class="activator-bestseller" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfDJ8MHx3aGl0ZQ%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+                <span class="card-title-bestseller activator"><p class="card-item-name">Women's Fashion</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-price">₱2000</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-stock">25k items sold</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column-bestseller">
+            <div class="card-bestseller">
+                <a href="" class="product-bestseller">
+              <div>
+              <img class="activator-bestseller" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfDJ8MHx3aGl0ZQ%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+                <span class="card-title-bestseller activator"><p class="card-item-name">Women's Fashion</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-price">₱2000</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-stock">25k items sold</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column-bestseller">
+            <div class="card-bestseller">
+                <a href="" class="product-bestseller">
+              <div>
+              <img class="activator-bestseller" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfDJ8MHx3aGl0ZQ%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+                <span class="card-title-bestseller activator"><p class="card-item-name">Women's Fashion</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-price">₱2000</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-stock">25k items sold</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column-bestseller">
+            <div class="card-bestseller">
+                <a href="" class="product-bestseller">
+              <div>
+              <img class="activator-bestseller" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfDJ8MHx3aGl0ZQ%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+                <span class="card-title-bestseller activator"><p class="card-item-name">Women's Fashion</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-price">₱2000</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-stock">25k items sold</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column-bestseller">
+            <div class="card-bestseller">
+                <a href="" class="product-bestseller">
+              <div>
+              <img class="activator-bestseller" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfDJ8MHx3aGl0ZQ%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+               <span class="card-title-bestseller activator"><p class="card-item-name">Women's Fashion</p></span>
+              <span class="card-title-bestseller activator"><p class="card-item-price">₱2000</p></span>
+              <span class="card-title-bestseller activator"><p class="card-item-stock">25k items sold</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column-bestseller">
+            <div class="card-bestseller">
+                <a href="" class="product-bestseller">
+              <div>
+              <img class="activator-bestseller" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfDJ8MHx3aGl0ZQ%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+                <span class="card-title-bestseller activator"><p class="card-item-name">Women's Fashion</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-price">₱2000</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-stock">25k items sold</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column-bestseller">
+            <div class="card-bestseller">
+                <a href="" class="product-bestseller">
+              <div>
+              <img class="activator-bestseller" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfDJ8MHx3aGl0ZQ%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+                <span class="card-title-bestseller activator"><p class="card-item-name">Women's Fashion</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-price">₱2000</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-stock">25k items sold</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column-bestseller">
+            <div class="card-bestseller">
+                <a href="" class="product-bestseller">
+              <div>
+              <img class="activator-bestseller" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfDJ8MHx3aGl0ZQ%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+                <span class="card-title-bestseller activator"><p class="card-item-name">Women's Fashion</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-price">₱2000</p></span>
+                <span class="card-title-bestseller activator"><p class="card-item-stock">25k items sold</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+          <div class="column-bestseller">
+            <div class="card-bestseller">
+                <a href="" class="product-bestseller">
+              <div>
+              <img class="activator-bestseller" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfDJ8MHx3aGl0ZQ%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+              </div>  
+              <div class="card-content">
+              <span class="card-title-bestseller activator"><p class="card-item-name">Women's Fashion</p></span>
+              <span class="card-title-bestseller activator"><p class="card-item-price">₱2000</p></span>
+              <span class="card-title-bestseller activator"><p class="card-item-stock">25k items sold</p></span>
+              </div>
+          </div>
+      </a>
+          </div>
+         
+          
+
+      </div>
+      <div class="load-more">
+        <input type="button" class="button-load" value="Load More">
+      </div>
+    </section>
+
+    <!-- Best Seller Section end here -->
+
+     <!-- Footer About Us Section  -->
+     <div class="footer">
+        <div class="upper-footer">
+            <section class="about">
+                <h4 class="about-title">About MarketDeck</h3>
+                <p class="about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h4 class="about-title">Buy and Sell with Less Effort</h3>
+                    <p class="about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h4 class="about-title">Feel Secured with MarketDeck</h3>
+                        <p class="about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+         </div>
+         <div class="lower-footer">
+            <p>© 2021 MarketDeck. All Rights Reserved</p>
+         </div>
+     </div>
+     
+     
+
+</body>
+</html>

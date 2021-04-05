@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .lower-footer{
+      padding: 20px;
+      background-color: #F35D08;
+      display: block;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+      
+
+  }
+  .about{
+    
+      
+      display: block;
+      
+
+      
+}
+
+.upper-footer{
+    background-color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px 30px ;
+    margin-bottom: 30px;
+}
+.about-content{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.about-title{
+    margin-top: 20px;
+}
