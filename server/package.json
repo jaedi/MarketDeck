@@ -1,0 +1,51 @@
+{
+  "name": "marketdeck",
+  "version": "1.0.0",
+  "description": "Online Market Platform for Buying and Selling of Products.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaedi/MarketDeck.git"
+  },
+  "keywords": [
+    "market",
+    "e-commerce",
+    "online",
+    "store",
+    "online",
+    "shop",
+    "buy",
+    "and",
+    "sell",
+    "vend",
+    "old",
+    "stuff",
+    "old",
+    "things",
+    "new",
+    "stuff",
+    "brand",
+    "new",
+    "antique"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaedi/MarketDeck/issues"
+  },
+  "homepage": "https://github.com/jaedi/MarketDeck#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
